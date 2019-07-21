@@ -2,7 +2,7 @@
   "name": "mongoscraper",
   "version": "1.0.0",
   "description": "express, express-handlebars, mongoose, cheerio, axios, heroku, mongolab",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +15,14 @@
   "bugs": {
     "url": "https://github.com/vsdinger/MongoScraper/issues"
   },
-  "homepage": "https://github.com/vsdinger/MongoScraper#readme"
+  "homepage": "https://github.com/vsdinger/MongoScraper#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^5.2.1",
+    "morgan": "^1.9.0",
+    "request": "^2.87.0"
+  }
 }
